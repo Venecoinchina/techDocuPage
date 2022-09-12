@@ -29,11 +29,12 @@ body {
     text-align: center;
     padding: 15px;
     font-weight: bold;
+    line-height: 30px;
 }
 #main-doc header {
     text-align: left;
     margin: 0px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .nav-link:hover {
     background-color: goldenrod;
@@ -41,7 +42,7 @@ body {
 }
 #navbar ul {
     height: 88%;
-    padding: 0;
+    padding: 20px 0;
     overflow-y: auto;
     overflow-x: hidden;
     font-size: 1.8rem;
@@ -89,45 +90,16 @@ code {
     margin: 10px;
     border-radius: 5px;
 }
-@media only screen and (max-width: 815px) {
-    /* For mobile phones: */
-    #navbar ul {
-      border: 1px solid;
-      height: 207px;
-    }
-  
-    #navbar {
-      background-color: white;
-      position: absolute;
-      top: 0;
-      padding: 0;
-      margin: 0;
-      width: 100%;
-      max-height: 275px;
-      border: none;
-      z-index: 1;
-      border-bottom: 2px solid;
-    }
-  
-    #main-doc {
-      position: relative;
-      margin-left: 0px;
-      margin-top: 270px;
-    }
-  }
-  
-  @media only screen and (max-width: 400px) {
-    #main-doc {
-      margin-left: -10px;
-    }
-  
-    code {
-      margin-left: -20px;
-      width: 100%;
-      padding: 15px;
-      padding-left: 10px;
-      padding-right: 45px;
-      min-width: 233px;
-    }
-  }
-  
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px 0;
+    padding-right: 20px;
+    text-align: end;
+    font-size: 1rem;
+    font-style: italic;
+    
+}
